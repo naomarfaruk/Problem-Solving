@@ -1,25 +1,45 @@
 
-
-
-
 {
-// 2. Write a JavaScript program to print the current window contents.
-document.body.style.background= 'grey'
-const button = document.createElement("button");
-button.innerText = "print";
-button.style.background = "red";
-button.style.color = "white";
-button.style.padding='40px';
-button.style.cursor= 'pointer'
-button.style.justifyContent= 'center'
 
-button.addEventListener("click", () => {
-  window.print();
-});
+// 3. Write a JavaScript program to get the current date.
+// Expected Output :
+// mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy
 
-document.body.appendChild(button);
+let currentTime = new Date();
+mon = currentTime.getMonth()+1;
+date = currentTime.getDate();
+year = currentTime.getFullYear();
+if (date < 10) {
+  date = '0' + date;
+}
+if (mon < 10) {
+  mon = '0' + mon;
 }
 
+console.log(mon + "-" + date + "-" + year)
+console.log(mon + "/" + date + "/" + year)
+console.log(date + "-" + mon + "-" + year)
+console.log(date + "/" + mon + "/" + year);
+
+}
+
+{
+  // 2. Write a JavaScript program to print the current window contents.
+  document.body.style.background = "grey";
+  const button = document.createElement("button");
+  button.innerText = "print";
+  button.style.background = "red";
+  button.style.color = "white";
+  button.style.padding = "40px";
+  button.style.cursor = "pointer";
+  button.style.justifyContent = "center";
+
+  button.addEventListener("click", () => {
+    window.print();
+  });
+
+  document.body.appendChild(button);
+}
 
 {
   // 1. Write a JavaScript program to display the current day and time in the following format.
