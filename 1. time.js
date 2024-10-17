@@ -1,13 +1,14 @@
+
+
+
 {
   // 13. Write a JavaScript exercise to create a variable using a user-defined name.  
-
 let user_name = "Omar";
 n= 102;
 
 this[user_name]=n;
 
 console.log(this[user_name])
-
 }
 
 
