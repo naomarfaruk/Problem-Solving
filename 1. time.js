@@ -1,8 +1,21 @@
+{
+  // 13. Write a JavaScript exercise to create a variable using a user-defined name.  
+
+let user_name = "Omar";
+n= 102;
+
+this[user_name]=n;
+
+console.log(this[user_name])
+
+}
+
+
 
 {
   // 12. Write a JavaScript program to get the website URL (loading page).  
 
-  alert(document.URL);
+  // alert(document.URL);
 }
 
 
