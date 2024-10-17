@@ -1,5 +1,49 @@
 
 {
+  // 12. Write a JavaScript program to get the website URL (loading page).  
+
+  alert(document.URL);
+}
+
+
+{
+  // 5. Write a JavaScript program to rotate the string 'w3resource' in the right direction. This is done by periodically removing one letter from the string end and attaching it to the front.  
+  
+
+  // const p = document.createElement("p");
+  // p.id = 'hello1';
+  // p.innerHTML=
+  // `w3resource`;
+  // document.body.appendChild(p);
+  // onload()
+  // function onload(){
+  //   let text = p.data;
+  // }
+  // setInterval( function(){
+  //   text=text[text.lenght-1]+ text.substring(0, text.lenght -1);
+  //   p.data=text
+  // },100)
+
+
+}
+
+
+
+{
+  // 4. Write a JavaScript program to find the area of a triangle where three sides are 5, 6, 7.  
+  let side1 = 5; 
+  let side2 = 6; 
+  let side3 = 7; 
+
+let s = ( side1+ side2+ side3)/2
+
+areas = Math.sqrt(s* ((s-side1)*(s-side2)*(s-side3)));
+console.log (areas);
+}
+
+
+
+{
 
 // 3. Write a JavaScript program to get the current date.
 // Expected Output :
